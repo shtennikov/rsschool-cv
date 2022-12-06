@@ -25,3 +25,11 @@ _I am studying in a preparatory course at RSSchool. I want to become a frontend 
 ```
 ## Work experience:
 _I have no relevant experience. I'm just learning..._
+## Education and courses:
+ + HTML Academy: Courses for beginners
+ + Code-basics: HTML, CSS and JS courses
+ + The Modern JavaScript Tutorial: https://javascript.info/
+
+## Languages: 
+ + Russian - native speaker
+ + English - A1
