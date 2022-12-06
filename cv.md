@@ -13,12 +13,11 @@ _I am studying in a preparatory course at RSSchool. I want to become a frontend 
 ---
 ## Code example:
 ```
-	function countBy(x, n) {
-   let z = [];
+function countBy(x, n) {
+	let z = [];
 
-   for (let i = 1; z.length < n; i++) {
-      if (i % x == 0) z.push(i);
-      
+	for (let i = 1; z.length < n; i++) {
+   	if (i % x == 0) z.push(i);
    }
 	return z;
 }
