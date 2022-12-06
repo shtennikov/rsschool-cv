@@ -11,3 +11,17 @@
 ## About myself:
 _I am studying in a preparatory course at RSSchool. I want to become a frontend developer._
 ---
+## Code example:
+```
+	function countBy(x, n) {
+   let z = [];
+
+   for (let i = 1; z.length < n; i++) {
+      if (i % x == 0) z.push(i);
+      
+   }
+	return z;
+}
+```
+## Work experience:
+_I have no relevant experience. I'm just learning..._
