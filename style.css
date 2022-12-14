@@ -65,13 +65,19 @@ html {
   margin: 0 auto;
   max-width: 1440px;
 }
-
+a {
+  color: #828282;
+}
 a:hover {
   color: black;
 }
 a:active {
   color: red;
 }
+a:visited {
+	text-decoration: none;
+}
+
 
 h2 {
 	margin-bottom: 40px;
@@ -166,16 +172,46 @@ p {
   max-width: 300px;
 }
 
-.about-me {
+/* about me */
+
+.about-me-wrapper {
 	scroll-margin-top: 87px;
-	padding: 50px;
 	width: 100%;
 	background:#F6F6F6;
 	text-align: center;
 }
 
-.about-me-description {
+.about-me {
+	max-width: 1040px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
+
+/* Contacts */
+
+.contacts-wrapper {
+	max-width: 1040px;
+	margin: 0 auto;
+	padding: 50px 0;
+	scroll-margin-top: 87px;
+}
+
+.contacts-title {
+	text-align: center;
+}
+
+.contacts-list {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.contact-logo {
+	display: block;
+	margin: 0 auto;
+	max-width: 50px;
+}
+
 
 /* footer */
 .footer {
