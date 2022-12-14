@@ -81,10 +81,12 @@ a:visited {
 
 h2 {
 	margin-bottom: 40px;
+	text-align: center;
 	font-family: 'Gilroy', sans-serif;
   font-size: 34px;
   font-weight: bold;
   line-height: 42px;
+	
 }
 
 p {
@@ -190,14 +192,11 @@ p {
 /* Contacts */
 
 .contacts-wrapper {
+	scroll-margin-top: 87px;
 	max-width: 1040px;
 	margin: 0 auto;
 	padding: 50px 0;
-	scroll-margin-top: 87px;
-}
-
-.contacts-title {
-	text-align: center;
+	
 }
 
 .contacts-list {
@@ -212,6 +211,27 @@ p {
 	max-width: 50px;
 }
 
+/* Skills */
+.skills-wrapper {
+	scroll-margin-top: 87px;
+	width: 100%;
+	background:#F6F6F6;
+}
+.skills {
+	margin: 0 auto;
+	padding: 50px 0;
+	max-width: 1040px;
+	text-align: center;
+}
+.skills-list {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.skill-logo {
+	display: block;
+	margin: 0 auto;
+}
 
 /* footer */
 .footer {
