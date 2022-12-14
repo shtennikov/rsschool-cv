@@ -87,7 +87,6 @@ h2 {
   font-size: 34px;
   font-weight: bold;
   line-height: 42px;
-	
 }
 
 p {
@@ -259,6 +258,17 @@ pre {
 	font-weight: 400;
 }
 
+/* Projects */
+.projects-wrapper {
+	scroll-margin-top: 87px;
+	width: 100%;
+	background:#F6F6F6;
+}
+.projects {
+	padding: 50px 0;
+	margin: 0 auto;
+	text-align: center;
+}
 /* footer */
 .footer {
 }
