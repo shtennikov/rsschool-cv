@@ -4,10 +4,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/rsschool-cv/style.css">
-    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV Stepan Shtennikov</title>
   </head>
   <body>
-    <h1>Stepan Shtennikov</h1>
+		<div class="wrapper">
+			<header class="header">
+				<nav class="header__navigation">
+					<ul class="navigation">
+						<li class="navigation__item"><a class="navigation__link" href="#">Home</a></li>
+						<li class="navigation__item"><a class="navigation__link" href="#about-me">About me</a></li>
+						<li class="navigation__item"><a class="navigation__link" href="#contacts">Contacts</a></li>
+						<li class="navigation__item"><a class="navigation__link" href="#skills">Skills</a></li>
+						<li class="navigation__item"><a class="navigation__link" href="#code">Code</a></li>
+						<li class="navigation__item"><a class="navigation__link" href="#projects">Projects</a></li>
+						<li class="navigation__item"><a class="navigation__link" href="#education">Education & Languages</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<main class="main">
+				<div class="main-intro-wrapper">
+					<div class="main-intro">
+						<div class="main-intro-img">
+							<img class="my-photo" src="./assets/img/photo_2022-10-28_18-06-27.jpg" alt="My photo">
+						</div>
+						<div class="main-intro-text">
+							<h1 class="main-intro-name">Stepan Shtennikov</h1>
+							<p class="main-intro-profession">Frontend-Developer</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="about-me-wrapper" id="about-me">
+					<div class="about-me">
+						<h2 class="about-me-title">About me</h2>
+						<p class="about-me-description">
+								Hi, I'm Stepan. I'm studying in a preparatory course at RSSchool. I want to become a professional Front-end developer.
+						</p>
+						<p class="about-me-description">
+								I like to get new knowledge and put it into practice and see my results.
+						</p>
+						<p class="about-me-description">
+								I believe that my desire and perseverance will lead me to my goal.
+						</p>
+					</div>
+				</div>
+
+				<div class="contacts-wrapper" id="contacts">
+					<div class="contacts">
+						<h2 class="contacts-title">Contacts</h2>
+						<ul class="contacts-list">
+							<li class="contact contacts-discord">
+								<div class="contacts-discord__item">
+									<img class="contact-logo" src="./assets/svg/icons8-discord.svg" alt="discord logo">
+									<p>Stepan#6055</p> 
+								</div>
+							</li>
+							<li class="contact contacts-email">
+								<div class="contacts-email__item">
+									<img class="contact-logo" src="./assets/svg/icons8-mail.svg" alt="email logo">
+									<p>shtennikov.s@gmail.com</p>
+								</div>
+							</li>
+							<li class="contact contacts-github">
+								<div class="contacts-github__item">
+									<img class="contact-logo" src="./assets/svg/phone.svg" alt="phone logo">
+									<p>+7 (965) 555-22-10</p>
+								</div>
+							</li>
+							<li class="contact contacts-telegram">
+								<div class="contacts-telegram__item">
+									<img class="contact-logo" src="./assets/svg/icons8-telegram.svg" alt="telegram logo">
+									<p><a href="https://t.me/stepanalexandrovich">@stepanalexandrovich</a></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="skills-wrapper" id="skills">
+					<ul class="skills">
+						<h2>Skills</h2>
+						<ul class="skills-list">
+							<li class="skill skill-html">
+								<img class="skill-logo" src="./assets/svg/icons8-html-5-96.svg" alt="HTML logo">
+								<p>HTML</p>
+							</li>
+							<li class="skill skill-css">
+								<img class="skill-logo" src="./assets/svg/icons8-css3-96.svg" alt="CSS logo">
+								<p>CSS</p>
+							</li>
+							<li class="skill skill-js">
+								<img class="skill-logo" src="./assets/svg/icons8-javascript-96.svg" alt="JavaScript logo">
+								<p>JavaScript</p>
+							</li>
+							<li class="skill skill-git">
+								<img class="skill-logo" src="./assets/svg/icons8-git-100.svg" alt="Git logo">
+								<p>Git</p>
+							</li>
+							<li class="skill skill-figma">
+								<img class="skill-logo" src="./assets/svg/icons8-figma-96.svg" alt="Figma logo">
+								<p>Figma</p>
+							</li>
+						</ul>
+					</ul>
+				</div>
+
+				<div class="code-wrapper" id="code">
+					<div class="code">
+						<h2>Code</h2>
+						<div class="pre-code">
+							
+<pre>  <span class="key-word">function</span> <span class="blue">squareSum</span>(<span class="blue">numbers</span>) {
+    <span class="key-word">let</span> <span class="blue">total</span> = <span class="number">0</span>;
+							
+    <span class="key-word">for</span> (<span class="key-word">let</span> <span class="blue">i</span> = <span class="number">0</span>; <span class="blue">i</span> &lt; <span class="blue">numbers</span>.<span class="method">length</span>; <span class="blue">i</span>++) {
+      <span class="blue">total</span> += <span class="blue">numbers</span>[<span class="blue">i</span>] ** <span class="number">2</span>;
+    }
+							
+    <span class="key-word">return</span> <span class="blue">total</span>;
+  }</pre>
+					</div>
+					</div>
+				</div>
+
+				<div class="projects-wrapper" id="projects">
+					<div class="projects">
+						<h2>Projects</h2>
+						<div class="projects-list">
+							<p class="project-one"><a href="https://shtennikov.github.io/rsschool-cv/cv">Project CV Markdown</a></p>
+							<p class="project-two"><a href="https://shtennikov.github.io/rsschool-cv/">Project CV HTML&CSS</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="education-wrapper" id="education">
+					<div class="education">
+						<h2>Education and languages</h2>
+						<p>HTML Academy: Courses for beginners</p>
+						<p>Code-basics: HTML, CSS and JS courses</p>
+						<p>The Modern JavaScript Tutorial</p>
+						<p><span class="bold">Languages:</span></p>
+						<p>Russian: native speaker</p>
+						<p>English: A1</p>
+					</div>
+				</div>
+			</main>
+
+			<footer class="footer">
+				<div class="footer-wrapper">
+					<ul class="footer-list">
+						<li class="footer-item">
+							<p class="link-description">© 2022 by Stepan Shtennikov</p>
+						</li>
+						<li class="footer-item">
+							<a href="https://rs.school/js-stage0/"><img class="logo-footer rsschool" src="./assets/svg/rs_school_js.svg" alt="logo rsschool"></a>
+						</li>
+						<li class="footer-item">
+							<a href="https://github.com/shtennikov">
+								<div class="footer-item github-link">
+									<img class="logo-footer github" src="./assets/svg/icons8-github.svg" alt="logo github">
+									<p class="link-description">Visit my GitHub</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
   </body>
 </html>
