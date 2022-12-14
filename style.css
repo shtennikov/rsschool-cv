@@ -269,6 +269,22 @@ pre {
 	margin: 0 auto;
 	text-align: center;
 }
+
+/* Education */
+.education-wrapper {
+	scroll-margin-top: 87px;
+	width: 100%;
+	background:#FFFFFF;
+}
+.education {
+	margin: 0 auto;
+	padding: 50px 0;
+	max-width: 1040px;
+	text-align: center;
+}
+.bold {
+	font-weight: bold;
+}
 /* footer */
 .footer {
 }
