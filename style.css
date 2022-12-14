@@ -287,4 +287,34 @@ pre {
 }
 /* footer */
 .footer {
+	width: 100%;
+	background: #F6F6F6;
+}
+.footer-wrapper {
+	margin: 0 auto;
+	padding: 60px 0 40px 0;
+	max-width: 1040px;
+}
+.footer-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+.logo-footer {
+	/* display: block; */
+	max-width: 50px;
+}
+.logo-footer.rsschool {
+	min-width: 120px;
+	max-width: 120px;
+}
+.logo-footer.github {
+	display: block;
+	margin: 0 auto;
+}
+.link-description {
+	margin: 0;
+	font-size: 14px;
+	line-height: normal;
 }
