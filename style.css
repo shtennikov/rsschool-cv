@@ -258,6 +258,18 @@ pre {
 	font-weight: 400;
 }
 
+.key-word {
+	color: rgb(206, 154, 11);
+}
+.blue {
+	color: #064496;
+}
+.method {
+	color: #5c3939;
+}
+.number {
+	color: orange
+}
 /* Projects */
 .projects-wrapper {
 	scroll-margin-top: 87px;
